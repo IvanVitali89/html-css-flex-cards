@@ -27,7 +27,7 @@ body {
 
 }
 
-body div {
+body h3 {
 
     background-color: chartreuse;
     text-align: center;
@@ -38,16 +38,26 @@ body div {
     flex-wrap: wrap;
     background-color: brown;
     height: 200px;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
 .col {
     border: 1px solid black;
-    height: calc(100%/2);
+    width: calc(100%/3);
+    display: flex;
 
+}
+img {
+    max-width: 90px;
+    height: auto;
 }
 
 .inside {
-    
+    padding: 5px 5px;
+    display: flex;
+
+}
+li {
+    list-style-type: none;
 }
