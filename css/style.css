@@ -16,35 +16,42 @@ header {
     font-variation-settings:
         "wdth" 100;
     text-align: center;
-    background-color: aquamarine;
+    
 
 
 }
 
 
-body  {
+body {
     padding: 10px 120px;
-    background-color: chartreuse;
+    
     text-align: center;
     font-family: "Fredoka", sans-serif;
-    
+
 }
 
+
+
 .photo {
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    background-color: brown;
+    
     height: 200px;
     flex-direction: row;
+    
 
 }
 
 .col {
-    border: 1px solid black;
+    
     width: calc(100%/3);
     display: flex;
-
+    background-color: black;
+    padding: 5px 5px;
+    
 }
+
 img {
     max-width: 90px;
     height: auto;
@@ -55,10 +62,11 @@ img {
     display: flex;
 
 }
+
 li {
     padding: 5px 0px;
     list-style-type: none;
-    padding-left: 10px;    
+    padding-left: 10px;
     text-align: left;
     font-family: "Fredoka", sans-serif;
     font-optical-sizing: auto;
@@ -66,5 +74,18 @@ li {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    
+        color: white;
+
+}
+#first {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#second {
+    font-weight: normal;    
+}
+#third {
+    color: rgb(123, 160, 216);
+    font-weight: normal;    
 }
