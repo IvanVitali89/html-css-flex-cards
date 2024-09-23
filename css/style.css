@@ -21,16 +21,13 @@ header {
 
 }
 
-body {
-    background-color: bisque;
+
+body  {
     padding: 10px 120px;
-
-}
-
-body h3 {
-
     background-color: chartreuse;
     text-align: center;
+    font-family: "Fredoka", sans-serif;
+    
 }
 
 .photo {
@@ -59,5 +56,15 @@ img {
 
 }
 li {
+    padding: 5px 0px;
     list-style-type: none;
+    padding-left: 10px;    
+    text-align: left;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    
 }
