@@ -23,11 +23,12 @@ header {
 
 body {
     background-color: bisque;
+    padding: 10px 120px;
 
 }
 
 body div {
-    padding: 10px 120px;
+
     background-color: chartreuse;
     text-align: center;
 }
@@ -36,14 +37,17 @@ body div {
     display: flex;
     flex-wrap: wrap;
     background-color: brown;
-    width: 1238px;
-    
-
+    height: 200px;
+    flex-direction: column;
 
 }
 
 .col {
     border: 1px solid black;
-    width: calc(100% / 3);
+    height: calc(100%/2);
 
+}
+
+.inside {
+    
 }
