@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    font-size: 60px;
+    color: deeppink;
+    padding: 20px 0px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    text-align: center;
+    background-color: aquamarine;
+
+
+}
+
+body {
+    background-color: bisque;
+
+}
+
+body div {
+    padding: 10px 120px;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: brown;
+    width: 1238px;
+    
+
+
+}
+
+.col {
+    border: 1px solid black;
+    width: calc(100% / 3);
+
+}
